@@ -84,3 +84,4 @@ Purdue University : 128.10.0.0/16, 128.46.0.0/16, 128.210.0.0/16, 128.211.0.0/16
 University of Maryland, College Park : 131.118.0.0/16
 Texas A&M University : 128.194.0.0/16, 165.91.0.0/16
 George Mason University : 129.174.0.0/16
+Ithaca College : 64.189.96.0/24, 64.189.96.0/20, 192.231.234.0/24, 147.129.0.0/16
