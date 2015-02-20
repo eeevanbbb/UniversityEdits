@@ -83,3 +83,4 @@ Clemson University : 130.127.0.0/16, 192.42.3.0/24, 198.21.128.0/17
 Purdue University : 128.10.0.0/16, 128.46.0.0/16, 128.210.0.0/16, 128.211.0.0/16, 128.211.128.0/19, 192.31.0.0/24
 University of Maryland, College Park : 131.118.0.0/16
 Texas A&M University : 128.194.0.0/16, 165.91.0.0/16
+George Mason University : 129.174.0.0/16
