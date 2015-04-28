@@ -69,14 +69,11 @@ def networkForAddress(ip):
 				return key
 	return None
 
-def is_ip_address(user):
-	return not any(c.isalpha() for c in user)
-
 def on_message(ws, message):
     #print message
     dict = json.loads(message)
     ip = dict["user"]
-    if (is_ip_address(ip)): #this is dumb. Use the is_anon key
+    if (dict["is_anon"]):
     	print 'Anonymous Edit'
     	network = networkForAddress(ip)
     	if network:
