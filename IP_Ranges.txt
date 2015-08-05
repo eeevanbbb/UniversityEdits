@@ -1,4 +1,4 @@
-﻿American University : 147.9.0.0/16, 192.5.15.0/24
+American University : 147.9.0.0/16, 192.5.15.0/24
 Bates College : 134.181.0.0/16
 Boston College : 136.167.0.0/16
 Boston University : 128.197.0.0/16, 155.41.0.0/18, 155.41.128.0/17, 168.122.0.0/17, 168.122.128.0/17
@@ -10,6 +10,7 @@ Carleton College : 137.22.0.0/16
 Carnegie Mellon University : 128.2.0.0/16, 128.237.0.0/16, 192.5.146.0/24, 192.12.32.0/24, 192.58.107.0/24, 192.80.210.0/24, 204.194.28.0/22
 Case Western Reserve University : 129.22.0.0/16
 Clemson University : 130.127.0.0/16, 192.42.3.0/24, 198.21.128.0/17
+Cleveland State University : 137.148.0.0/16
 Colby College : 137.146.0.0/16
 College of William and Mary : 128.239.0.0/16, 128.239.0.0/17, 128.239.33.0/24, 128.239.128.0/17
 Columbia University : 128.59.0.0/16, 160.39.0.0/16, 192.5.43.0/24, 192.12.82.0/24, 207.10.136.0/21
@@ -49,6 +50,7 @@ Texas A&M University : 128.194.0.0/16, 165.91.0.0/16
 The Johns Hopkins Medical Institutions : 162.129.0.0/16
 Tufts University : 130.64.0.0/16
 Tulane University : 129.81.0.0/16, 129.81.236.0/23
+University of Akron : 130.101.0.0/16
 University of Arizona : 128.196.0.0/16, 150.135.0.0/16, 192.12.69.0/24, 192.80.43.0/24, 206.207.224.0/19, 208.68.28.0/22, 208.75.160.0/21
 University of California, Berkeley : 136.152.0.0/16, 169.229.0.0/16, 192.31.105.0/24, 192.101.42.0/24, 192.150.186.0/23, 192.154.4.0/23, 192.154.6.0/24
 University of California, Davis : 128.120.0.0/16, 128.120.80.0/21, 152.79.0.0/16, 169.237.0.0/16, 192.82.111.0/24
