@@ -89,6 +89,7 @@ def on_error(ws, error):
 
 def on_close(ws):
     print "### closed ###"
+    ws.run_forever()
 
 def on_open(ws):
     def run(*args):
