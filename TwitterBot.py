@@ -89,6 +89,11 @@ def on_error(ws, error):
 
 def on_close(ws):
     print "### closed ###"
+    
+    ws = websocket.WebSocketApp("ws://wikimon.hatnote.com/en/",
+                                on_message = on_message,
+                                on_error = on_error,
+                                on_close = on_close)
     ws.run_forever()
 
 def on_open(ws):
