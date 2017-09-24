@@ -8,7 +8,7 @@ import tweet
 
 class SubnetHandler():
     def __init__(self):
-        self.ipranges = {}
+        self.ip_ranges = {}
         self.pages = []
         self.handles = {}
 
@@ -22,7 +22,7 @@ class SubnetHandler():
                 name = parts[0].decode('utf-8')
                 part2 = parts[1].strip("\n")
                 ranges = part2.split(", ")      
-                self.ipranges[name] = ranges        
+                self.ip_ranges[name] = ranges        
 
         with open('Monitored_Pages') as f:
             lines = f.readlines()
