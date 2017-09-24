@@ -89,12 +89,12 @@ class WikipediaListener():
         dict = json.loads(message)
         ip = dict["user"]
         if (dict["is_anon"]):
-        	print 'Anonymous Edit'
-        	network = self.networkForAddress(ip)
-        	if network:
-        		page = dict["page_title"]
-        		print network + " edited " + page
-                if page in pages:
+            print 'Anonymous Edit'
+            network = self.networkForAddress(ip)
+            if network:
+                page = dict["page_title"]
+                print network + " edited " + page
+                if page in self.subnet_handler.pages:
                     print "!!! " + page + " edited by " + network
                     tweet1 = self.composer.compose_tweet(page, network, dict["url"])
                     tweet2 = self.composer.compose_tweet_at(page, network, dict["url"]) #in the future, combine these methods?
