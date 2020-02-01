@@ -68,7 +68,7 @@ class WikipediaListener():
         self.tweet_handler = tweet_handler
 
         websocket.enableTrace(True)
-        self.ws = websocket.WebSocketApp("ws://wikimon.hatnote.com/en/",
+        self.ws = websocket.WebSocketApp("ws://alpha.hatnote.com:9000",
                                 on_message = self.on_message,
                                 on_error = self.on_error,
                                 on_close = self.on_close) 
